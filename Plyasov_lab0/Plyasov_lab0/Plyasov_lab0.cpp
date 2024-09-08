@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    string a;
+    cout << "Hello World!\n";
+    cin >> a;
+    cout << "Your simbol is " << a;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
